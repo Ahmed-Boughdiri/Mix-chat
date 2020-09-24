@@ -1,0 +1,26 @@
+
+.freinds-container {
+    height: 100%;
+    width: 100%;
+}
+.freind {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.freind-detail {
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.freind-detail h5{
+    font-size: 18px;
+    margin-bottom: -3px;
+}
+.freind-detail p {
+    font-size: 14px;
+}

@@ -1,0 +1,33 @@
+
+.input-container {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.input {
+    height: 100%;
+    flex: 5;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.input-field {
+    height: 100%;
+    width: 90%;
+    border: 0;
+    margin-left: 20px;
+}
+.send {
+    height: 100%;
+    flex: 1;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+.send img {
+    height: 30px;
+    width: 30px
+}
